@@ -21,11 +21,13 @@
     margin-top: 30px;
 }
 nav img {
-    position: relative;
-    background-size: cover;
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-top: -40px;
 }
 .nav {
-    position: fixed;
+    position: absolute;
     z-index: 1030;
 
 }
