@@ -7,6 +7,7 @@
 .nav ul li {
     display: inline-block;
     position: relative;
+    margin-inline: 15px;
 }
 .nav ul a {
     text-decoration: none;
@@ -15,4 +16,16 @@
 .brand {
     text-decoration: none;
     text-align: left;
+}
+.row {
+    margin-top: 30px;
+}
+nav img {
+    position: relative;
+    background-size: cover;
+}
+.nav {
+    position: fixed;
+    z-index: 1030;
+
 }
